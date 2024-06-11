@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ovrbTuNkUKMi6yD2K7QJ6MAoXgNY27pMvHiU4xzWT4DQAUOfNZREmaeFTsYEiGSXpLEYxNmWt4xv8B4Yx6V2cA==",
+  "dgSpecHash": "Zyeknz/1OiurAtckexw8+0/7WuliBi0Hp/5paYsNVAdn67vFxtd3RHUh/8XvGMDKgJH/cuE4lWLu79Zh/Oeq6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\GasTon\\Desktop\\API TPI Laboratorio 3\\API TPI Laboratorio3\\Application\\Application.csproj",
+  "projectFilePath": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

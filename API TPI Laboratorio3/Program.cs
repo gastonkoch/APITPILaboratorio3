@@ -13,7 +13,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 #region Repository
-builder.Services.AddSingleton<IProductRepository,ProductRepository>();
+builder.Services.AddSingleton<IProductRepository,MainRepository>();
 #endregion
 
 #region Service

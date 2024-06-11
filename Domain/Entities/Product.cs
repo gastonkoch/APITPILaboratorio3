@@ -13,14 +13,19 @@ namespace Domain.Entities
         public string Description { get; set; }
         public float Price {  get; set; }
         public int Stock {  get; set; }
-
-        public Product(int id, string name, string description, float price, int stock) 
+        public string Image { get; set; }
+        public string Category { get; set; }
+        public string Brand { get; set; }
+        public Product(int id, string name, string description, float price, int stock, string image, string category, string brand) 
         {
             Id = id;
             Name = name;
             Description = description;
             Price = price;
             Stock = stock;
+            Image = image;
+            Category = category;
+            Brand = brand;
         }
 
         public Product() { }

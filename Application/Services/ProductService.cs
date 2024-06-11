@@ -34,11 +34,13 @@ namespace Application.Services
         {
             var productCreate = new Product()
             {
-                Id = product.Id,
                 Name = product.Name,
                 Description = product.Description,
                 Price = product.Price,
                 Stock = product.Stock,
+                Image = product.Image,
+                Category = product.Category,
+                Brand = product.Brand
             };
             _productRepository.CreateProduct(productCreate);
             return _productRepository.GetProductById(productCreate.Id);
@@ -51,6 +53,9 @@ namespace Application.Services
             productUpdate.Description = product.Description;
             productUpdate.Stock = product.Stock;
             productUpdate.Price = product.Price;
+            productUpdate.Image = product.Image;
+            productUpdate.Category = product.Category;
+            productUpdate.Brand = product.Brand;
             _productRepository.UpdateProduct(productUpdate);
         }
 
