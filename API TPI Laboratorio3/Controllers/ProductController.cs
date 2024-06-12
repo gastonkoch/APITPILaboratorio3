@@ -17,7 +17,7 @@ namespace API_TPI_Laboratorio3.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Product>> GetProducts() 
+        public ActionResult<List<Product>> GetAll() 
         {
             try
             {

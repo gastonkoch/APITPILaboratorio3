@@ -20,6 +20,19 @@ builder.Services.AddSingleton<IProductRepository,MainRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 #endregion
 
+var proveedor = builder.Services.BuildServiceProvider();
+var configuration = proveedor.GetService<IConfiguration>();
+
+builder.Services.AddCors(opciones =>
+{
+    var fronendURL = configuration.GetValue<String>("frontend_url");
+
+    opciones.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins(fronendURL).AllowAnyMethod().AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,6 +43,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors();
 
 app.UseAuthorization();
 
