@@ -13,11 +13,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 #region Repository
-builder.Services.AddSingleton<IProductRepository,MainRepository>();
+builder.Services.AddSingleton<IMainRepository,MainRepository>();
 #endregion
 
 #region Service
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IUserService, UserService>();
 #endregion
 
 var proveedor = builder.Services.BuildServiceProvider();

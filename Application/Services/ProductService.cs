@@ -12,22 +12,28 @@ namespace Application.Services
 {
     public class ProductService : IProductService
     {
-        private readonly IProductRepository _productRepository;
-        public ProductService(IProductRepository productRepository)
+        private readonly IMainRepository _mainRepository;
+        public ProductService(IMainRepository mainRepository)
         {
-            _productRepository = productRepository;
+            _mainRepository = mainRepository;
         }
         public List<Product> GetProducts()
         {
-            return _productRepository.GetProducts();
+            return _mainRepository.GetProducts();
         }
+
+        public List<Product> GetProductsDisponible()
+        {
+            return _mainRepository.GetProductsDisponible();
+        }
+
         public Product GetProductById(int id)
         {
-            return _productRepository.GetProductById(id);
+            return _mainRepository.GetProductById(id);
         }
         public Product GetProductByName(string name)
         {
-            return _productRepository.GetProductByName(name);
+            return _mainRepository.GetProductByName(name);
         }
 
         public Product CreateProduct(ProductDto product)
@@ -40,15 +46,16 @@ namespace Application.Services
                 Stock = product.Stock,
                 Image = product.Image,
                 Category = product.Category,
-                Brand = product.Brand
+                Brand = product.Brand,
+                Avaible = true
             };
-            _productRepository.CreateProduct(productCreate);
-            return _productRepository.GetProductById(productCreate.Id);
+            _mainRepository.CreateProduct(productCreate);
+            return _mainRepository.GetProductById(productCreate.Id);
         }
 
         public void UpdateProduct(int id, ProductDto product)
         {
-            var productUpdate = _productRepository.GetProductById(id);
+            var productUpdate = _mainRepository.GetProductById(id);
             productUpdate.Name = product.Name;
             productUpdate.Description = product.Description;
             productUpdate.Stock = product.Stock;
@@ -56,13 +63,27 @@ namespace Application.Services
             productUpdate.Image = product.Image;
             productUpdate.Category = product.Category;
             productUpdate.Brand = product.Brand;
-            _productRepository.UpdateProduct(productUpdate);
+            _mainRepository.UpdateProduct(productUpdate);
+        }
+
+        public void UpdateProductDisponibleBaja(int id)
+        {
+            var productUpdate = _mainRepository.GetProductById(id);
+            productUpdate.Avaible = false;
+            _mainRepository.UpdateProduct(productUpdate);
+        }
+
+        public void UpdateProductDisponibleAlta(int id)
+        {
+            var productUpdate = _mainRepository.GetProductById(id);
+            productUpdate.Avaible = true;
+            _mainRepository.UpdateProduct(productUpdate);
         }
 
         public void DeleteProduct(int id)
         {
-            var productDelete = _productRepository.GetProductById(id);
-            _productRepository.DeleteProduct(productDelete);
+            var productDelete = _mainRepository.GetProductById(id);
+            _mainRepository.DeleteProduct(productDelete);
         }
     }
 }

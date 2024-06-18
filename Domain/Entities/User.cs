@@ -17,6 +17,27 @@ namespace Domain.Entities
         public string Password { get; set; }
         public string Email { get; set; }
         public string UserName { get; set; }
+
+        public string? Adress { get; set; }
+        public List<Order>? Orders { get; set; }
+
+        public ICollection<Product>? Products { get; set; } = new List<Product>();
         public UserType UserType { get; set; }
+
+        public bool IsActive { get; set; }
+        public User(int id, string name, string lastName, string password, string email, string userName, string? adress, List<Order>? orders, ICollection<Product>? products, UserType userType) 
+        {
+            Id = id;
+            Name = name;
+            LastName = lastName;
+            Password = password;
+            Email = email;
+            UserName = userName;
+            Adress = adress;
+            Orders = orders;
+            Products = products;
+            UserType = userType;
+        }
+        public User() { }
     }
 }

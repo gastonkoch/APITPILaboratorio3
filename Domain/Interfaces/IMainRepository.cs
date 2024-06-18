@@ -7,13 +7,22 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces
 {
-    public interface IProductRepository
+    public interface IMainRepository
     {
         public List<Product> GetProducts();
+        public List<Product> GetProductsDisponible();
         public Product GetProductById(int id);
         public Product GetProductByName(string name);
         public Product CreateProduct(Product product);
         public void UpdateProduct(Product product);
         public void DeleteProduct(Product product);
+        public List<User> GetUsers();
+        public User GetUserById(int id);
+        public User GetUserByName(string name);
+        public User CreateUser(User user);
+        public void UpdateUser(User user);
+        public void DeleteUser(int id);
+        public void ActiveUser(int id);
+        
     }
 }

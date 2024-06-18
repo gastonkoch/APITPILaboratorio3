@@ -15,6 +15,6 @@ namespace Application.Models
         public string Image {  get; set; }
         public string Category { get; set; }
         public string Brand { get; set; }
-
+        public bool Avaible { get; set; }
     }
 }

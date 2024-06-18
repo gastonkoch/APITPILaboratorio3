@@ -17,12 +17,26 @@ namespace API_TPI_Laboratorio3.Controllers
         }
 
         [HttpGet]
-        public ActionResult<List<Product>> GetAll() 
+        public ActionResult<List<Product>> GetAll()
         {
             try
             {
                 return Ok(_productService.GetProducts());
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("disponible/")]
+        public ActionResult<List<Product>> GetAllProductDisponible()
+        {
+            try
+            {
+                return Ok(_productService.GetProductsDisponible());
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -34,7 +48,8 @@ namespace API_TPI_Laboratorio3.Controllers
             try
             {
                 return Ok(_productService.GetProductById(id));
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -57,6 +72,18 @@ namespace API_TPI_Laboratorio3.Controllers
         public void UpdateProduct([FromRoute] int id, [FromBody] ProductDto product)
         {
             _productService.UpdateProduct(id, product);
+        }
+
+        [HttpPut("baja/{id}")] // PARA HACER LA BAJA LOGICA
+        public void UpdateProductDisponibleBaja([FromRoute] int id)
+        {
+            _productService.UpdateProductDisponibleBaja(id);
+        }
+
+        [HttpPut("alta/{id}")] // PARA HACER LA ALTA LOGICA
+        public void UpdateProductDisponibleAlta([FromRoute] int id)
+        {
+            _productService.UpdateProductDisponibleAlta(id);
         }
 
         [HttpDelete("{id}")]
