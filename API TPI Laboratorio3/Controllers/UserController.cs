@@ -58,7 +58,7 @@ namespace API_TPI_Laboratorio3.Controllers
         }
 
         [HttpGet("type/{type}")]
-        public ActionResult<User> GetUserByType([FromRoute] UserType type)
+        public ActionResult<List<User>> GetUserByType([FromRoute] UserType type)
         {
             try
             {

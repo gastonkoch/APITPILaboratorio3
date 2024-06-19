@@ -34,7 +34,7 @@ namespace Application.Services
             return _mainRepository.GetUserByName(name);
         }
 
-        public User GetUserByType(UserType type)
+        public List<User> GetUserByType(UserType type)
         {
             return _mainRepository.GetUserByType(type);
         }
