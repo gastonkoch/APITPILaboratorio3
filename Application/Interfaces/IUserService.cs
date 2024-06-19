@@ -1,5 +1,6 @@
 ﻿using Application.Models;
 using Domain.Entities;
+using Domain.Enums;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -15,8 +16,10 @@ namespace Application.Interfaces
         public User GetUserById(int id);
         public User GetUserByName(string name);
         public User CreateUser(User user);
+        public User GetUserByType(UserType type);
         public void UpdateUser(User user);
         public void DeleteUser(int id);
         public void ActiveUser(int id);
+
     }
 }

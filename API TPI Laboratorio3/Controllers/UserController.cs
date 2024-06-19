@@ -2,6 +2,7 @@
 using Application.Models;
 using Application.Services;
 using Domain.Entities;
+using Domain.Enums;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -43,12 +44,25 @@ namespace API_TPI_Laboratorio3.Controllers
             }
         }
 
-        [HttpGet("/{name}")]
+        [HttpGet("name/{name}")]
         public ActionResult<User> GetUserByName([FromRoute] string name)
         {
             try
             {
                 return Ok(_userService.GetUserByName(name));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpGet("type/{type}")]
+        public ActionResult<User> GetUserByType([FromRoute] UserType type)
+        {
+            try
+            {
+                return Ok(_userService.GetUserByType(type));
             }
             catch (Exception ex)
             {

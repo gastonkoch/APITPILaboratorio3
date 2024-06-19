@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{39566219-5109-4568-A1A7-8BBDA3FB98FC}|Infraestructure\\Infraestructure.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\infraestructure\\data\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{39566219-5109-4568-A1A7-8BBDA3FB98FC}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\data\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\api tpi laboratorio3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|solutionrelative:api tpi laboratorio3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\api tpi laboratorio3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|solutionrelative:api tpi laboratorio3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\api tpi laboratorio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|solutionrelative:api tpi laboratorio3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,48 +39,16 @@
       "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\api tpi laboratorio3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|solutionrelative:api tpi laboratorio3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\api tpi laboratorio3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|solutionrelative:api tpi laboratorio3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39566219-5109-4568-A1A7-8BBDA3FB98FC}|Infraestructure\\Infraestructure.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\infraestructure\\data\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{39566219-5109-4568-A1A7-8BBDA3FB98FC}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\data\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\models\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\interfaces\\imainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\imainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\usertype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -70,43 +66,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBEAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBIAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T22:26:14.41Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "API TPI Laboratorio3\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\ProductController.cs",
               "RelativeToolTip": "API TPI Laboratorio3\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFEAAAAAAAAA",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAuwFoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T20:07:46.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowCQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T22:04:50.324Z",
               "EditorCaption": ""
@@ -114,19 +110,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IMainRepository.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Interfaces\\IMainRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Interfaces\\IMainRepository.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Interfaces\\IMainRepository.cs",
-              "RelativeToolTip": "Domain\\Interfaces\\IMainRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAwAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T22:42:32.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "ProductDto.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Models\\ProductDto.cs",
               "RelativeDocumentMoniker": "Application\\Models\\ProductDto.cs",
@@ -134,8 +117,7 @@
               "RelativeToolTip": "Application\\Models\\ProductDto.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAzwBEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T23:27:31.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T23:27:31.337Z"
             }
           ]
         },
@@ -145,20 +127,59 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductService.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\ProductService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\ProductService.cs",
-              "RelativeToolTip": "Application\\Services\\ProductService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwEIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T00:02:22.782Z",
+              "WhenOpened": "2024-06-17T20:58:49.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Program.cs",
+              "RelativeDocumentMoniker": "API TPI Laboratorio3\\Program.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Program.cs",
+              "RelativeToolTip": "API TPI Laboratorio3\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAowBoAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:07:58.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Entities\\User.cs",
+              "RelativeToolTip": "Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:00:20.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Data\\MainRepository.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Data\\MainRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:07:36.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "IProductService.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Interfaces\\IProductService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IProductService.cs",
@@ -166,73 +187,32 @@
               "RelativeToolTip": "Application\\Interfaces\\IProductService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T22:34:29.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T22:34:29.478Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAsAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:58:49.245Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Program.cs",
-              "RelativeDocumentMoniker": "API TPI Laboratorio3\\Program.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Program.cs",
-              "RelativeToolTip": "API TPI Laboratorio3\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAowBQAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:07:58.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Entities\\User.cs",
-              "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAiwBUAAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T21:00:20.51Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "MainRepository.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Data\\MainRepository.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
-              "RelativeToolTip": "Infraestructure\\Data\\MainRepository.cs",
-              "ViewState": "AQIAADsAAAAAAAAAAAAAwA0AAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:07:36.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "UserType.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Enums\\UserType.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\UserType.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Enums\\UserType.cs",
               "RelativeToolTip": "Domain\\Enums\\UserType.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T21:18:54.153Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "Application\\Services\\ProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T00:02:22.782Z"
             },
             {
               "$type": "Document",
@@ -244,34 +224,31 @@
               "RelativeToolTip": "Domain\\Entities\\Order.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:03:18.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T20:03:18.673Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Infraestructure",
+              "DocumentIndex": 13,
+              "Title": "Infraestructure.csproj",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Infraestructure.csproj",
               "RelativeDocumentMoniker": "Infraestructure\\Infraestructure.csproj",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Infraestructure.csproj",
               "RelativeToolTip": "Infraestructure\\Infraestructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-17T20:07:21.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T20:07:21.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Domain",
+              "DocumentIndex": 12,
+              "Title": "Domain.csproj",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "Domain\\Domain.csproj",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-06-17T21:00:16.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T21:00:16.342Z"
             }
           ]
         }

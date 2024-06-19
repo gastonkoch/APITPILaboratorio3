@@ -1,4 +1,5 @@
 ﻿using Domain.Entities;
+using Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace Domain.Interfaces
         public List<User> GetUsers();
         public User GetUserById(int id);
         public User GetUserByName(string name);
+        public User GetUserByType(UserType type);
         public User CreateUser(User user);
         public void UpdateUser(User user);
         public void DeleteUser(int id);

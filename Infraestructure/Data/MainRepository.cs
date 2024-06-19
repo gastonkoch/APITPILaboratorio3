@@ -119,6 +119,11 @@ namespace Infraestructure.Data
             return users.FirstOrDefault(x => x.Name == name);
         }
 
+        public User GetUserByType(UserType type)
+        {
+            return users.FirstOrDefault(x => x.UserType == type);
+        }
+
         public User CreateUser(User user)
         {
             user.Id = ++LastIdAssignedUser;

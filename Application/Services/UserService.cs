@@ -1,6 +1,7 @@
 ﻿using Application.Interfaces;
 using Application.Models;
 using Domain.Entities;
+using Domain.Enums;
 using Domain.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -31,6 +32,11 @@ namespace Application.Services
         public User GetUserByName(string name)
         {
             return _mainRepository.GetUserByName(name);
+        }
+
+        public User GetUserByType(UserType type)
+        {
+            return _mainRepository.GetUserByType(type);
         }
 
         public User CreateUser(User user)
