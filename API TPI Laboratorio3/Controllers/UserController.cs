@@ -59,11 +59,11 @@ namespace API_TPI_Laboratorio3.Controllers
         }
 
         [HttpGet("name/{name}")]
-        public ActionResult<User> GetUserByName([FromRoute] string name)
+        public ActionResult<List<User>> GetUsersByName([FromRoute] string name)
         {
             try
             {
-                return Ok(_userService.GetUserByName(name));
+                return Ok(_userService.GetUsersByName(name));
             }
             catch (Exception ex)
             {
@@ -84,17 +84,18 @@ namespace API_TPI_Laboratorio3.Controllers
             }
         }
 
-        [HttpPut]
-        public void UpdateUser([FromBody] User user)
+        [HttpPut("{id}")]
+        public void UpdateUser([FromRoute] int id, [FromBody] UserDTO user)
         {
-            _userService.UpdateUser(user);
+            _userService.UpdateUser(id, user);
         }
 
-        [HttpDelete("/{id}")]
+        [HttpDelete("{id}")]
         public void DeleteUser([FromRoute] int id)
         {
             _userService.DeleteUser(id);
         }
+
 
         [HttpPut("/{id}")]
         public void ActiveUser([FromRoute] int id)
@@ -102,11 +103,20 @@ namespace API_TPI_Laboratorio3.Controllers
             _userService.ActiveUser(id);
         }
 
-        [HttpPost]
-        public User CreateUser([FromBody] User user)
+        [HttpPost("/customer")]
+        public User CreateUserClient([FromBody] UserDTO user)
         {
-            return _userService.CreateUser(user);
+            return _userService.CreateUserClient(user);
         }
+
+        [HttpPost("/seller")]
+        public User CreateUserSeller([FromBody] UserDTO user)
+        {
+            return _userService.CreateUserSeller(user);
+        }
+
+
+
 
         [HttpPost("validate")]
         public IActionResult ValidateUserCredentials([FromBody] AuthenticateDTO authenticate)

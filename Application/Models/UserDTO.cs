@@ -10,7 +10,7 @@ namespace Application.Models
 {
     public class UserDTO
     {
-        public int Id { get; set; }
+        //public int Id { get; set; }
         public string Name { get; set; }
         public string LastName { get; set; }
         public string Password { get; set; }
@@ -18,9 +18,9 @@ namespace Application.Models
         public string UserName { get; set; }
 
         public string? Adress { get; set; }
-        public List<Order>? Orders { get; set; }
+        //public List<Order>? Orders { get; set; }
 
-        public ICollection<Product>? Products { get; set; }
-        public UserType UserType { get; set; }
+        //public ICollection<Product>? Products { get; set; }
+        //public UserType UserType { get; set; }
     }
 }

@@ -20,11 +20,11 @@ namespace Domain.Interfaces
         public List<User> GetUsers();
         public User GetUserById(int id);
         public User GetUserByEmail(string email);
-        public User GetUserByName(string name);
+        public List<User> GetUsersByName(string name);
         public List<User> GetUserByType(UserType type);
         public User CreateUser(User user);
         public void UpdateUser(User user);
-        public void DeleteUser(int id);
+        public void DeleteUser(User user);
         public void ActiveUser(int id);
         public bool ValidateUserCredentials(string userEmail, string userPassword);
     }

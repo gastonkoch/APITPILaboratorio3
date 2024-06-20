@@ -14,11 +14,13 @@ namespace Application.Interfaces
     {
         public List<User> GetUsers();
         public User GetUserById(int id);
-        public User GetUserByName(string name);
-        public User CreateUser(User user);
+        public List<User> GetUsersByName(string name);
+        //public User CreateUser(UserDTO user);
+        public User CreateUserClient(UserDTO user);
+        public User CreateUserSeller(UserDTO user);
         public User GetUserByEmail(string email);
         public List<User> GetUserByType(UserType type);
-        public void UpdateUser(User user);
+        public void UpdateUser(int id, UserDTO user);
         public void DeleteUser(int id);
         public void ActiveUser(int id);
         public bool ValidateUserCredentials(string userEmail, string userPassword);

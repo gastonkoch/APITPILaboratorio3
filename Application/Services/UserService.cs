@@ -3,11 +3,6 @@ using Application.Models;
 using Domain.Entities;
 using Domain.Enums;
 using Domain.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Application.Services
 {
@@ -33,9 +28,9 @@ namespace Application.Services
             return _mainRepository.GetUserByEmail(email);
         }
 
-        public User GetUserByName(string name)
+        public List<User> GetUsersByName(string name)
         {
-            return _mainRepository.GetUserByName(name);
+            return _mainRepository.GetUsersByName(name);
         }
 
         public List<User> GetUserByType(UserType type)
@@ -43,19 +38,56 @@ namespace Application.Services
             return _mainRepository.GetUserByType(type);
         }
 
-        public User CreateUser(User user)
+        public User CreateUserClient(UserDTO user)
         {
-            return _mainRepository.CreateUser(user);
+            var userCrear = new User()
+            {
+                Name = user.Name,
+                LastName = user.LastName,
+                Password = user.Password,
+                Email = user.Email,
+                UserName = user.UserName,
+                Adress = user.Adress,
+                UserType = UserType.Client,
+                IsActive = true,
+            };
+            _mainRepository.CreateUser(userCrear);
+            return _mainRepository.GetUserById(userCrear.Id);
         }
 
-        public void UpdateUser(User user)
+        public User CreateUserSeller(UserDTO user)
         {
-            _mainRepository.UpdateUser(user);
+            var userCrear = new User()
+            {
+                Name = user.Name,
+                LastName = user.LastName,
+                Password = user.Password,
+                Email = user.Email,
+                UserName = user.UserName,
+                Adress = user.Adress,
+                UserType = UserType.Seller,
+                IsActive = true,
+            };
+            _mainRepository.CreateUser(userCrear);
+            return _mainRepository.GetUserById(userCrear.Id);
+        }
+
+        public void UpdateUser(int id, UserDTO user)
+        {
+            var usuario = _mainRepository.GetUserById(id);
+            usuario.Name = user.Name;
+            usuario.LastName = user.LastName;
+            usuario.Password = user.Password;
+            usuario.Email = user.Email;
+            usuario.UserName = user.UserName;
+            usuario.Adress = user.Adress;
+            _mainRepository.UpdateUser(usuario);
         }
 
         public void DeleteUser(int id)
         {
-            _mainRepository.DeleteUser(id);
+            var usuarioDelete = _mainRepository.GetUserById(id);
+            _mainRepository.DeleteUser(usuarioDelete);
         }
 
         public void ActiveUser(int id)

@@ -49,13 +49,28 @@ namespace Infraestructure.Data
         };
 
 
-        static int LastIdAssignedUser = 3; //Revisar que el numero sea siempre el ultimo id asignado de la lista
+        static int LastIdAssignedUser = 14; //Revisar que el numero sea siempre el ultimo id asignado de la lista
         static List<User> users = new List<User>
         {
             new User {Id = 1, Name = "Alejandro", LastName = "Di Stefano", Password = "a",Email = "a",UserName = "aleDiStefano",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
-             new User {Id = 2, Name = "Marco", LastName = "Ruben", Password = "rc1",Email = "lakd@mail.com",UserName = "MarcoRuben",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
+            new User {Id = 2, Name = "Marco", LastName = "Ruben", Password = "rc1",Email = "lakd@mail.com",UserName = "MarcoRuben",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
             new User {Id = 3,Name = "Gaston",LastName = "Koch",Password = "Gaston1",Email = "Gaston@mail.com",UserName = "GastonKoch",Adress = null,Orders = null,Products = null,UserType = UserType.Seller,IsActive = true},
-            new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin321",Email = "sysAdmin@mail.com",UserName = "SysAdmin",Adress = null,Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true}
+            new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin321",Email = "sysAdmin@mail.com",UserName = "SysAdmin",Adress = null,Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true},
+        
+            // Clientes
+            new User {Id = 5, Name = "Marco", LastName = "Perez", Password = "jp1", Email = "juan.perez@mail.com", UserName = "JuanPerez", Adress = "Calle Falsa 123", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 6, Name = "Ana", LastName = "Gomez", Password = "ag2", Email = "ana.gomez@mail.com", UserName = "AnaGomez", Adress = "Avenida Siempreviva 456", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 7, Name = "Luis", LastName = "Martinez", Password = "lm3", Email = "luis.martinez@mail.com", UserName = "LuisMartinez", Adress = "Boulevard San Juan 789", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 8, Name = "Maria", LastName = "Rodriguez", Password = "mr4", Email = "maria.rodriguez@mail.com", UserName = "MariaRodriguez", Adress = "Pasaje del Sol 101", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 9, Name = "Carlos", LastName = "Lopez", Password = "cl5", Email = "carlos.lopez@mail.com", UserName = "CarlosLopez", Adress = "Camino de los Pinos 202", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 10, Name = "Elena", LastName = "Garcia", Password = "eg6", Email = "elena.garcia@mail.com", UserName = "ElenaGarcia", Adress = "Ruta 9 KM 33", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 11, Name = "Miguel", LastName = "Hernandez", Password = "mh7", Email = "miguel.hernandez@mail.com", UserName = "MiguelHernandez", Adress = "Calle de la Luna 404", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 12, Name = "Laura", LastName = "Fernandez", Password = "lf8", Email = "laura.fernandez@mail.com", UserName = "LauraFernandez", Adress = "Avenida de los Poetas 505", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 13, Name = "Pedro", LastName = "Ruiz", Password = "pr9", Email = "pedro.ruiz@mail.com", UserName = "PedroRuiz", Adress = "Calle de las Flores 606", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
+            new User {Id = 14, Name = "Sofia", LastName = "Diaz", Password = "sd10", Email = "sofia.diaz@mail.com", UserName = "SofiaDiaz", Adress = "Plaza del Sol 707", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true}
+
+
+
         };
 
         #region PRODUCTS
@@ -119,9 +134,9 @@ namespace Infraestructure.Data
             return users.FirstOrDefault(x => x.Email == email);
         }
 
-        public User GetUserByName(string name)
+        public List<User> GetUsersByName(string name)
         {
-            return users.FirstOrDefault(x => x.Name == name);
+            return users.Where(x => x.Name == name).ToList();
         }
 
         public List<User> GetUserByType(UserType type)
@@ -148,10 +163,9 @@ namespace Infraestructure.Data
             obj.Adress = user.Adress;
         }
 
-        public void DeleteUser(int id)
+        public void DeleteUser(User user)
         {
-            var obj = users.FirstOrDefault(x => x.Id == id);
-            obj.IsActive = false;
+            users.Remove(user);
         }
 
         public void ActiveUser(int id)
