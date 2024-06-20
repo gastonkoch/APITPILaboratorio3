@@ -28,6 +28,10 @@ namespace Application.Services
         {
             return _mainRepository.GetUserById(id);
         }
+        public User GetUserByEmail(string email)
+        {
+            return _mainRepository.GetUserByEmail(email);
+        }
 
         public User GetUserByName(string name)
         {

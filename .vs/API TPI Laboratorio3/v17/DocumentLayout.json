@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{39566219-5109-4568-A1A7-8BBDA3FB98FC}|Infraestructure\\Infraestructure.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\infraestructure\\data\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{39566219-5109-4568-A1A7-8BBDA3FB98FC}|Infraestructure\\Infraestructure.csproj|solutionrelative:infraestructure\\data\\mainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,28 +15,24 @@
       "RelativeMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|solutionrelative:api tpi laboratorio3\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\models\\request\\authenticatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\models\\request\\authenticatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\interfaces\\imainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\imainrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\models\\request\\authenticatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\models\\request\\authenticatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{808A9CDB-BD24-4A91-8616-B4FAA155CF16}|Application\\Application.csproj|solutionrelative:application\\models\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BAF161E8-80A3-4AD1-86DF-1334D40E657C}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0812512C-BC35-49E4-8EA1-B6D081EAACF2}|API TPI Laboratorio3\\Web.csproj|c:\\sourcecode\\back-tpi-lab\\apitpilaboratorio3\\api tpi laboratorio3\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,18 +77,18 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
+          "DockedWidth": 175,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAArAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA8wBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T22:26:14.41Z",
               "EditorCaption": ""
@@ -107,13 +107,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Services\\UserService.cs",
               "RelativeToolTip": "Application\\Services\\UserService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAowD0AAABSAAAA",
+              "ViewState": "AQIAABYAAAAAAAAAAAAowB4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-17T22:04:50.324Z",
               "EditorCaption": ""
@@ -133,25 +133,38 @@
           ]
         },
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "DockedWidth": 225,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthenticateDTO.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Models\\Request\\AuthenticateDTO.cs",
-              "RelativeDocumentMoniker": "Application\\Models\\Request\\AuthenticateDTO.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Models\\Request\\AuthenticateDTO.cs",
-              "RelativeToolTip": "Application\\Models\\Request\\AuthenticateDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAgAAAA",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "RelativeToolTip": "API TPI Laboratorio3\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAwwDwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:29:46.842Z",
+              "WhenOpened": "2024-06-17T20:58:49.245Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MainRepository.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
+              "RelativeDocumentMoniker": "Infraestructure\\Data\\MainRepository.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
+              "RelativeToolTip": "Infraestructure\\Data\\MainRepository.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAADwv0wAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:07:36.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Models\\UserDTO.cs",
               "RelativeDocumentMoniker": "Application\\Models\\UserDTO.cs",
@@ -159,21 +172,7 @@
               "RelativeToolTip": "Application\\Models\\UserDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T01:29:22.797Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "RelativeToolTip": "API TPI Laboratorio3\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAAmwHMAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:58:49.245Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T01:29:22.797Z"
             },
             {
               "$type": "Document",
@@ -189,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
@@ -197,33 +196,32 @@
               "RelativeToolTip": "Domain\\Entities\\User.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAiwBIAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T21:00:20.51Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T21:00:20.51Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MainRepository.cs",
-              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
-              "RelativeDocumentMoniker": "Infraestructure\\Data\\MainRepository.cs",
-              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Infraestructure\\Data\\MainRepository.cs",
-              "RelativeToolTip": "Infraestructure\\Data\\MainRepository.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAmwDYAAABtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:07:36.684Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "IMainRepository.cs",
               "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Interfaces\\IMainRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Interfaces\\IMainRepository.cs",
               "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Domain\\Interfaces\\IMainRepository.cs",
               "RelativeToolTip": "Domain\\Interfaces\\IMainRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAABTAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-19T01:24:56.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticateDTO.cs",
+              "DocumentMoniker": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Models\\Request\\AuthenticateDTO.cs",
+              "RelativeDocumentMoniker": "Application\\Models\\Request\\AuthenticateDTO.cs",
+              "ToolTip": "C:\\SourceCode\\BACK-TPI-LAB\\APITPILaboratorio3\\Application\\Models\\Request\\AuthenticateDTO.cs",
+              "RelativeToolTip": "Application\\Models\\Request\\AuthenticateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T01:29:46.842Z",
               "EditorCaption": ""
             },
             {

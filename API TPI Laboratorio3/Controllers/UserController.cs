@@ -45,6 +45,19 @@ namespace API_TPI_Laboratorio3.Controllers
             }
         }
 
+        [HttpGet("email/{email}")]
+        public ActionResult<User> GetUserByEmail([FromRoute] string email)
+        {
+            try
+            {
+                return Ok(_userService.GetUserByEmail(email));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpGet("name/{name}")]
         public ActionResult<User> GetUserByName([FromRoute] string name)
         {
@@ -98,12 +111,12 @@ namespace API_TPI_Laboratorio3.Controllers
         [HttpPost("validate")]
         public IActionResult ValidateUserCredentials([FromBody] AuthenticateDTO authenticate)
         {
-            if (authenticate == null || string.IsNullOrEmpty(authenticate.Email) || string.IsNullOrEmpty(authenticate.Password))
+            if (authenticate == null || string.IsNullOrEmpty(authenticate.userEmail) || string.IsNullOrEmpty(authenticate.userPassword))
             {
                 return BadRequest("Invalid request payload.");
             }
 
-            bool isValid = _userService.ValidateUserCredentials(authenticate.Email, authenticate.Password);
+            bool isValid = _userService.ValidateUserCredentials(authenticate.userEmail, authenticate.userPassword);
 
             if (isValid)
             {

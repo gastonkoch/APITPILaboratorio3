@@ -52,7 +52,7 @@ namespace Infraestructure.Data
         static int LastIdAssignedUser = 3; //Revisar que el numero sea siempre el ultimo id asignado de la lista
         static List<User> users = new List<User>
         {
-            new User {Id = 1, Name = "Alejandro", LastName = "Di Stefano", Password = "Ale1",Email = "Ale1889@mail.com",UserName = "AleDiStefano",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
+            new User {Id = 1, Name = "Alejandro", LastName = "Di Stefano", Password = "a",Email = "a",UserName = "aleDiStefano",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
              new User {Id = 2, Name = "Marco", LastName = "Ruben", Password = "rc1",Email = "lakd@mail.com",UserName = "MarcoRuben",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
             new User {Id = 3,Name = "Gaston",LastName = "Koch",Password = "Gaston1",Email = "Gaston@mail.com",UserName = "GastonKoch",Adress = null,Orders = null,Products = null,UserType = UserType.Seller,IsActive = true},
             new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin321",Email = "sysAdmin@mail.com",UserName = "SysAdmin",Adress = null,Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true}
@@ -113,6 +113,10 @@ namespace Infraestructure.Data
         public User GetUserById(int id)
         {
             return users.FirstOrDefault(x => x.Id == id);
+        }
+        public User GetUserByEmail(string email)
+        {
+            return users.FirstOrDefault(x => x.Email == email);
         }
 
         public User GetUserByName(string name)

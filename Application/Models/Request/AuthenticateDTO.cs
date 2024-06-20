@@ -8,7 +8,7 @@ namespace Application.Models.Request
 {
     public class AuthenticateDTO
     {
-        public string Email { get; set; }
-        public string Password { get; set; }
+        public string userEmail { get; set; }
+        public string userPassword { get; set; }
     }
 }

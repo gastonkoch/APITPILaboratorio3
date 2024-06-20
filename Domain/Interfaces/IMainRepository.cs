@@ -19,6 +19,7 @@ namespace Domain.Interfaces
         public void DeleteProduct(Product product);
         public List<User> GetUsers();
         public User GetUserById(int id);
+        public User GetUserByEmail(string email);
         public User GetUserByName(string name);
         public List<User> GetUserByType(UserType type);
         public User CreateUser(User user);
