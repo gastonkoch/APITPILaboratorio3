@@ -1,5 +1,6 @@
 ﻿using Application.Interfaces;
 using Application.Models;
+using Application.Models.Request;
 using Application.Services;
 using Domain.Entities;
 using Domain.Enums;
@@ -92,6 +93,26 @@ namespace API_TPI_Laboratorio3.Controllers
         public User CreateUser([FromBody] User user)
         {
             return _userService.CreateUser(user);
+        }
+
+        [HttpPost("validate")]
+        public IActionResult ValidateUserCredentials([FromBody] AuthenticateDTO authenticate)
+        {
+            if (authenticate == null || string.IsNullOrEmpty(authenticate.Email) || string.IsNullOrEmpty(authenticate.Password))
+            {
+                return BadRequest("Invalid request payload.");
+            }
+
+            bool isValid = _userService.ValidateUserCredentials(authenticate.Email, authenticate.Password);
+
+            if (isValid)
+            {
+                return Ok(new { Message = "Authentication successful." });
+            }
+            else
+            {
+                return Unauthorized(new { Message = "Invalid email or password." });
+            }
         }
     }
 }

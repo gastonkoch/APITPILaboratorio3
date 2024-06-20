@@ -20,6 +20,6 @@ namespace Application.Interfaces
         public void UpdateUser(User user);
         public void DeleteUser(int id);
         public void ActiveUser(int id);
-
+        public bool ValidateUserCredentials(string userEmail, string userPassword);
     }
 }

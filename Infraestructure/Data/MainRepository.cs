@@ -155,6 +155,11 @@ namespace Infraestructure.Data
             var obj = users.FirstOrDefault(x => x.Id == id);
             obj.IsActive = true;
         }
+
+        public bool ValidateUserCredentials(string userEmail, string userPassword)
+        {
+            return users.Any(p => p.Email == userEmail && p.Password == userPassword);
+        }
         #endregion
 
     }

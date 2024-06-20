@@ -58,5 +58,11 @@ namespace Application.Services
         {
             _mainRepository.ActiveUser(id);
         }
+
+        public bool ValidateUserCredentials(string userEmail, string userPassword)
+        {
+            return _mainRepository.ValidateUserCredentials(userEmail, userPassword);
+
+        }
     }
 }
