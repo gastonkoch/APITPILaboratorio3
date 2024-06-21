@@ -27,7 +27,8 @@ namespace Domain.Interfaces
         public void DeleteUser(User user);
         public void ActiveUser(int id);
         public bool ValidateUserCredentials(string userEmail, string userPassword);
-
+        public bool ValidateUserNickName(string userNickName);
+        public bool ValidateUserMail(string userMail);
         public List<Order> GetOrders();
         public Order CreateOrder(Order order);
         public Order GetOrderById(int id);

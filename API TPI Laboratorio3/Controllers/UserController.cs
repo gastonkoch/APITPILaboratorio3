@@ -137,5 +137,37 @@ namespace API_TPI_Laboratorio3.Controllers
                 return Unauthorized(new { Message = "Invalid email or password." });
             }
         }
+
+        [HttpPost("nickNameAvaible/{nickName}")]
+        public IActionResult ValidateUserNickName([FromRoute] string nickName)
+        {
+            bool isValid = _userService.ValidateUserNickName(nickName);
+            isValid = !isValid;
+            if (isValid)
+            {
+                return Ok(true);
+            }
+            else
+            {
+                return Ok(false);
+            }
+        }
+
+
+        [HttpPost("EmailRegistered/{email}")]
+        public IActionResult ValidateUserEmail([FromRoute] string email)
+        {
+            bool isValid = _userService.ValidateUserEmail(email);
+            isValid = !isValid;
+            if (isValid)
+            {
+                return Ok(true);
+            }
+            else
+            {
+                return Ok(false);
+            }
+        }
+
     }
 }

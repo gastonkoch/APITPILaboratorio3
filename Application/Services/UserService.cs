@@ -100,5 +100,15 @@ namespace Application.Services
             return _mainRepository.ValidateUserCredentials(userEmail, userPassword);
 
         }
+
+        public bool ValidateUserNickName(string userNickName)
+        {
+            return _mainRepository.ValidateUserNickName(userNickName);
+        }
+
+        public bool ValidateUserEmail(string userEmail)
+        {
+            return _mainRepository.ValidateUserMail(userEmail);
+        }
     }
 }

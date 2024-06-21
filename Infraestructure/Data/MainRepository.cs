@@ -218,6 +218,16 @@ namespace Infraestructure.Data
         {
             return users.Any(p => p.Email == userEmail && p.Password == userPassword);
         }
+
+        public bool ValidateUserNickName(string userNickName)
+        {
+            return users.Any(p => p.UserName == userNickName);
+        }
+
+        public bool ValidateUserMail(string userMail)
+        {
+            return users.Any(p => p.Email == userMail);
+        }
         #endregion
 
     }

@@ -24,5 +24,7 @@ namespace Application.Interfaces
         public void DeleteUser(int id);
         public void ActiveUser(int id);
         public bool ValidateUserCredentials(string userEmail, string userPassword);
+        public bool ValidateUserNickName(string userNickName);
+        public bool ValidateUserEmail(string userEmail);
     }
 }
