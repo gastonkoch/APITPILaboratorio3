@@ -19,6 +19,7 @@ builder.Services.AddSingleton<IMainRepository,MainRepository>();
 #region Service
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IOrderService, OrderService>();
 #endregion
 
 var proveedor = builder.Services.BuildServiceProvider();
