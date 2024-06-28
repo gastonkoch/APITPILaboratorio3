@@ -55,8 +55,8 @@ namespace Infraestructure.Data
         {
             new User {Id = 1, Name = "Alejandro", LastName = "Di Stefano", Password = "a",Email = "a",UserName = "aleDiStefano",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
             new User {Id = 2, Name = "Marco", LastName = "Ruben", Password = "rc1",Email = "lakd@mail.com",UserName = "MarcoRuben",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
-            new User {Id = 3,Name = "Gaston",LastName = "Koch",Password = "Gaston1",Email = "Gaston@mail.com",UserName = "GastonKoch",Adress = null,Orders = null,Products = null,UserType = UserType.Seller,IsActive = true},
-            new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin",Email = "admin",UserName = "SysAdmin",Adress = null,Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true},
+            new User {Id = 3,Name = "Gaston",LastName = "Koch",Password = "g",Email = "g",UserName = "GastonKoch",Adress = "",Orders = null,Products = null,UserType = UserType.Seller,IsActive = true},
+            new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin",Email = "admin",UserName = "SysAdmin",Adress = "",Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true},
         
             // Clientes
             new User {Id = 5, Name = "Marco", LastName = "Perez", Password = "jp1", Email = "juan.perez@mail.com", UserName = "JuanPerez", Adress = "Calle Falsa 123", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
@@ -70,16 +70,16 @@ namespace Infraestructure.Data
             new User {Id = 13, Name = "Pedro", LastName = "Ruiz", Password = "pr9", Email = "pedro.ruiz@mail.com", UserName = "PedroRuiz", Adress = "Calle de las Flores 606", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
             new User {Id = 14, Name = "Sofia", LastName = "Diaz", Password = "sd10", Email = "sofia.diaz@mail.com", UserName = "SofiaDiaz", Adress = "Plaza del Sol 707", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
             // Vendedores
-            new User {Id = 15, Name = "Lucia", LastName = "Perez", Password = "AnaP123", Email = "ana.perez@mail.com", UserName = "AnaPerez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 16, Name = "Carla", LastName = "Lopez", Password = "CarlosL321", Email = "carlos.lopez@mail.com", UserName = "CarlosLopez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 17, Name = "Micaela", LastName = "Gomez", Password = "MariaG456", Email = "maria.gomez@mail.com", UserName = "MariaGomez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 18, Name = "Jose", LastName = "Fernandez", Password = "JorgeF654", Email = "jorge.fernandez@mail.com", UserName = "JorgeFernandez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 19, Name = "Jose", LastName = "Martinez", Password = "LuciaM789", Email = "lucia.martinez@mail.com", UserName = "LuciaMartinez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 20, Name = "Pedro", LastName = "Diaz", Password = "PedroD987", Email = "pedro.diaz@mail.com", UserName = "PedroDiaz", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 21, Name = "Lucia", LastName = "Suarez", Password = "ElenaS123", Email = "elena.suarez@mail.com", UserName = "ElenaSuarez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 22, Name = "Gaston", LastName = "Mendez", Password = "RicardoM321", Email = "ricardo.mendez@mail.com", UserName = "RicardoMendez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 23, Name = "Natalia", LastName = "Ramirez", Password = "NataliaR456", Email = "natalia.ramirez@mail.com", UserName = "NataliaRamirez", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
-            new User {Id = 24, Name = "Victor", LastName = "Morales", Password = "VictorM654", Email = "victor.morales@mail.com", UserName = "VictorMorales", Adress = null, Orders = null, Products = null, UserType = UserType.Seller, IsActive = true}
+            new User {Id = 15, Name = "Lucia", LastName = "Perez", Password = "AnaP123", Email = "ana.perez@mail.com", UserName = "AnaPerez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 16, Name = "Carla", LastName = "Lopez", Password = "CarlosL321", Email = "carlos.lopez@mail.com", UserName = "CarlosLopez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 17, Name = "Micaela", LastName = "Gomez", Password = "MariaG456", Email = "maria.gomez@mail.com", UserName = "MariaGomez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 18, Name = "Jose", LastName = "Fernandez", Password = "JorgeF654", Email = "jorge.fernandez@mail.com", UserName = "JorgeFernandez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 19, Name = "Jose", LastName = "Martinez", Password = "LuciaM789", Email = "lucia.martinez@mail.com", UserName = "LuciaMartinez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 20, Name = "Pedro", LastName = "Diaz", Password = "PedroD987", Email = "pedro.diaz@mail.com", UserName = "PedroDiaz", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 21, Name = "Lucia", LastName = "Suarez", Password = "ElenaS123", Email = "elena.suarez@mail.com", UserName = "ElenaSuarez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 22, Name = "Gaston", LastName = "Mendez", Password = "RicardoM321", Email = "ricardo.mendez@mail.com", UserName = "RicardoMendez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 23, Name = "Natalia", LastName = "Ramirez", Password = "NataliaR456", Email = "natalia.ramirez@mail.com", UserName = "NataliaRamirez", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true},
+            new User {Id = 24, Name = "Victor", LastName = "Morales", Password = "VictorM654", Email = "victor.morales@mail.com", UserName = "VictorMorales", Adress = "", Orders = null, Products = null, UserType = UserType.Seller, IsActive = true}
 
 
         };

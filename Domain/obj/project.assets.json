@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GasTon\\.nuget\\packages\\": {}
+    "C:\\Users\\alerc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GasTon\\Desktop\\API TPI Laboratorio 3\\APITPILaboratorio3\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Users\\alerc\\OneDrive\\Escritorio\\Laboratorio\\BACK\\APITPILaboratorio3\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "C:\\Users\\GasTon\\Desktop\\API TPI Laboratorio 3\\APITPILaboratorio3\\Domain\\Domain.csproj",
-      "packagesPath": "C:\\Users\\GasTon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GasTon\\Desktop\\API TPI Laboratorio 3\\APITPILaboratorio3\\Domain\\obj\\",
+      "projectPath": "C:\\Users\\alerc\\OneDrive\\Escritorio\\Laboratorio\\BACK\\APITPILaboratorio3\\Domain\\Domain.csproj",
+      "packagesPath": "C:\\Users\\alerc\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alerc\\OneDrive\\Escritorio\\Laboratorio\\BACK\\APITPILaboratorio3\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GasTon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alerc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
