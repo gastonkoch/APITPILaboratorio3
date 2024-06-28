@@ -34,3 +34,15 @@ C:\SourceCode\BACK DE LABORATORIO ---------\APITPILaboratorio3\Domain\obj\Debug\
 C:\SourceCode\BACK DE LABORATORIO ---------\APITPILaboratorio3\Domain\obj\Debug\net8.0\refint\Domain.dll
 C:\SourceCode\BACK DE LABORATORIO ---------\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.pdb
 C:\SourceCode\BACK DE LABORATORIO ---------\APITPILaboratorio3\Domain\obj\Debug\net8.0\ref\Domain.dll
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\alerc\OneDrive\Escritorio\Laboratorio\BACK\APITPILaboratorio3\Domain\obj\Debug\net8.0\ref\Domain.dll

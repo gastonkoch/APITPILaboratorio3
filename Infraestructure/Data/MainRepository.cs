@@ -53,10 +53,10 @@ namespace Infraestructure.Data
         static int LastIdAssignedUser = 24; //Revisar que el numero sea siempre el ultimo id asignado de la lista
         static List<User> users = new List<User>
         {
-            new User {Id = 1, Name = "Alejandro", LastName = "Di Stefano", Password = "a",Email = "a",UserName = "aleDiStefano",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
+            new User {Id = 1, Name = "Alejandro", LastName = "Di Stefano", Password = "ale",Email = "ale@gmail.com",UserName = "aleDiStefano",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
             new User {Id = 2, Name = "Marco", LastName = "Ruben", Password = "rc1",Email = "lakd@mail.com",UserName = "MarcoRuben",Adress = "Zeballos 1341",Orders = new List<Order>(),Products = new List<Product>(),UserType = UserType.Client,IsActive = true},
-            new User {Id = 3,Name = "Gaston",LastName = "Koch",Password = "g",Email = "g",UserName = "GastonKoch",Adress = "",Orders = null,Products = null,UserType = UserType.Seller,IsActive = true},
-            new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin",Email = "admin",UserName = "SysAdmin",Adress = "",Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true},
+            new User {Id = 3,Name = "Gaston",LastName = "Koch",Password = "gaston",Email = "gaston@gmail.com",UserName = "GastonKoch",Adress = "",Orders = null,Products = null,UserType = UserType.Seller,IsActive = true},
+            new User {Id = 4,Name = "Admin",LastName = "sysAdmin",Password = "admin",Email = "admin@easygrip.com",UserName = "SysAdmin",Adress = "",Orders = null,Products = null,UserType = UserType.SysAdmin, IsActive = true},
         
             // Clientes
             new User {Id = 5, Name = "Marco", LastName = "Perez", Password = "jp1", Email = "juan.perez@mail.com", UserName = "JuanPerez", Adress = "Calle Falsa 123", Orders = new List<Order>(), Products = new List<Product>(), UserType = UserType.Client, IsActive = true},
